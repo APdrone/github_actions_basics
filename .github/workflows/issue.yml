@@ -1,0 +1,10 @@
+name: Issue
+on:
+  label:
+    types: [created, edited]
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: issue creation
+        run: echo "issue created"

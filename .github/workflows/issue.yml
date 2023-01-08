@@ -1,6 +1,6 @@
 name: Issue
 on:
-  label:
+  issues:
     types: [created, edited]
 jobs:
   issue:
